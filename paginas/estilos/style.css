@@ -16,7 +16,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #fff;
-    padding: 0 200px;
+    margin: 0 400px;
 }
 
 /* Links */
@@ -127,14 +127,29 @@ p {
     object-position: center; 
 }
 
+.img-section-container img {
+    margin-bottom: 15px;
+}
+
+header p {
+    background-color: #f5f5f5;
+}
+
+header a:hover{
+    text-decoration: none;
+
+}
+
 footer {
     background-color: #1a2a3a;
     color: #ffffff;
-    
-    margin-top: 50px;
+    margin-top: auto;
     display: flex;
     justify-content: center; /* Alinha horizontal */
     align-items: center; /* Alinha vertical */
-    
-    min-height: 100px; /* Altura mínima */
+    min-height: 50px; /* Altura mínima */
+}
+
+footer p {
+    margin-bottom: 0;
 }
